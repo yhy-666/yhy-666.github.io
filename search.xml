@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>两个数不能组合出的最大的数字</title>
+      <link href="/2022/110443971.html"/>
+      <url>/2022/110443971.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="两个数不能组合出的最大的数字"><a href="#两个数不能组合出的最大的数字" class="headerlink" title="两个数不能组合出的最大的数字"></a>两个数不能组合出的最大的数字</h1><blockquote><p>结论：当且仅当两个数a,b的gcd(a,b)为1时，也就是a和b互质，存在一个两个数不能组合出的最大的数字</p><blockquote><p>公式是a*b-a-b</p></blockquote></blockquote><h2 id="证明："><a href="#证明：" class="headerlink" title="证明："></a>证明：</h2><blockquote><p>先证明为什么两个数不互质的时候是没有最大的组合不出的数字的</p><p>两个数不互质分为两种情况</p><blockquote><ol><li>其中一个数是另一个数的倍数，即gcd(a,b)&#x3D;a||b</li><li>两个数存在非1的最大公因数，比如gcd(9,6)&#x3D;3</li></ol></blockquote><p>这两种情况下不管两个数怎么组合 a<em>x+b</em>y都会是一个合数，是组合不出一个质数的<br>但是又因为没有最大的质数，所以最大的组合不出的数是不存在的。</p></blockquote><blockquote><p>接下来证明为什么在gcd(a,b)&#x3D;&#x3D;1的前提下a*b-a-b 是a，b组合不出的数。</p><blockquote><p>这里使用归谬法进行证明，假设a<em>b-a-b&#x3D;&#x3D;a</em>x+b<em>y 是能够被a，b组合出来<br>由上式可以得到a</em>b&#x3D;a(x+1)+b*(y+1),又因为a|ab,a|a(x+1)，可以得到a|b*(y+1)<br>因为gcd(a,b)&#x3D;&#x3D;1，所以有a|(y+1),由y&gt;&#x3D;0得到y+1&gt;&#x3D;a，所以有(y+1)b&gt;&#x3D;a<em>b,同理可以得到a</em>(x+1)&gt;&#x3D;a<em>b<br>所以a(x+1)+b(y+1)&gt;&#x3D;2ab&gt;ab,与题目假设的ab-a-b&#x3D;&#x3D;ax+by矛盾，故a和b是无法组合出a</em>b-a-b的</p></blockquote></blockquote><img src="/2022/110443971/img0.jpg" class=""><img src="/2022/110443971/img.jpg" class="">]]></content>
+      
+      
+      <categories>
+          
+          <category> 数论 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>建站总结</title>
+      <link href="/2022/110233734.html"/>
+      <url>/2022/110233734.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="建站历程"><a href="#建站历程" class="headerlink" title="建站历程"></a>建站历程</h1><p>跟教程-&gt;出错了-&gt;上网找解决方法-&gt;网站搭建起来了-&gt;套主题-&gt;加功能-&gt;稍微个性化修改-&gt;…</p><p>其中评论功能那里原本应该是可以通过qq号和qq邮箱可以获取QQ头像和QQ昵称的<br>但是不知为什么在本地我自己电脑上就可以运行，放到github上之后就失效了<br>大概是因为github的服务器不在境内，没法爬国内QQ的数据。</p><p>目前为止网站的功能就那么多，后面等找到一些好玩的功能再加进去,这个主题里面本就配套很多功能，但暂时都用不到，所以就关了。</p><p>另外，这个网站因为是托管到github上去的，所以不需要备案什么的，只有放到境内的服务器的时候才用<br>也正因如此，网站的访问速度可能会慢点，这个亲测，我用校园网访问的时候慢的一批，用流量就好很多了</p><p>emmm，也没什么想说的了，就到这里吧</p><img src="/2022/110233734/img1.jpg" class=""><img src="/2022/110233734/img.jpg" class="">]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 建设网站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>记录今天找评论功能的艰辛</title>
+      <link href="/2022/103158766.html"/>
+      <url>/2022/103158766.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="整整一个晚上"><a href="#整整一个晚上" class="headerlink" title="整整一个晚上"></a>整整一个晚上</h1><p>一直在试Artutalk，一直都没成功，要是就这样睡了，我大概做梦都会想着这个吧。</p><p>终于终于在最后找到一个能用的了。</p><p>##最后来张图</p><img src="/2022/103158766/img2.jpg" class="" title="二次元">]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 建设网站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>看看远方的莲华吧，家人们</title>
+      <link href="/2022/102958765.html"/>
+      <url>/2022/102958765.html</url>
+      
+        <content type="html"><![CDATA[<img src="/2022/102958765/img3.jpg" class="" title="这是一个示例图片"><img src="/2022/102958765/img4.jpg" class="" title="这是一个示例图片">]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> galgame </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>鼠鼠的第一篇试水博客</title>
+      <link href="/2022/102958763.html"/>
+      <url>/2022/102958763.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 水 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>鼠鼠的第二篇博客</title>
+      <link href="/2022/102958764.html"/>
+      <url>/2022/102958764.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>代码测试：</p><p>print(“Hello”)</p><p>注意：这里因为我放在md文件中的，所以加上了\，不解析&#96;&#96;&#96;，实际测试时请去掉\。</p><p>图片测试：</p><p><img src="https://img-blog.csdnimg.cn/295ff994b9b241ab8bc75d6054923b77.jpeg"></p><p>引用测试：</p><blockquote><p>这是一条引用</p></blockquote><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>无序列表测试：</p><ul><li>哈哈</li><li>嘿嘿</li><li>吼吼</li></ul><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4>]]></content>
+      
+      
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 水 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
